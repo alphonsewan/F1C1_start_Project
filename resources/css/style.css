@@ -182,7 +182,7 @@ header .tablet {
 }
 
 .banner {
-  background-image: url(/resources/images/landingpage.jpg);
+  background-image: url('../images/landingpage.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
