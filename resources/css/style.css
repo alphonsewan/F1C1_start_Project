@@ -128,8 +128,6 @@ header .tablet {
 
 
 @media only screen and (max-width: 580px){
-  
-  *{outline: 1px solid red;}
 
   header .desktop {
     display: none;
@@ -184,7 +182,7 @@ header .tablet {
 }
 
 .banner {
-  background-image: url("/resources/images/banner-landingpage.jpg");
+  background-image: url("../resources/images/banner-landingpage.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
