@@ -128,6 +128,9 @@ header .tablet {
 
 
 @media only screen and (max-width: 580px){
+  
+  *{outline: 1px solid red;}
+
   header .desktop {
     display: none;
   }
@@ -136,23 +139,9 @@ header .tablet {
     display: none;
   }
 
-
-  header {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 3rem;
-    border-bottom: solid 1px #c6c1c1;
-    background-color: white;
-    z-index: 999; 
-  }
-
-
   header .mobile {
     display: flex;
-    margin-top: 0.5rem;
+    align-content: center;
     width: 100%;
   }
 
@@ -275,7 +264,8 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 580px) 
+@media only screen and (max-width: 580px) {
+
 
   #sign-up-section {
     height: 20rem;
@@ -288,6 +278,13 @@ header .tablet {
   #sign-up-cta h2 {
     font-size: 2rem;
   }
+
+  #sign-up-cta {
+    margin: 0;
+    padding: 0;
+  }
+
+  
 }
 
 /* Features Section */
