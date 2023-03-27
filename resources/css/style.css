@@ -151,7 +151,7 @@ header .tablet {
   }
 
   header .mobile li:not(:last-child) {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   header .mobile .button {
@@ -266,17 +266,20 @@ header .tablet {
 
 @media only screen and (max-width: 580px) {
 
-
   #sign-up-section {
     height: 20rem;
+    width: 100%;
   }
 
-  #sign-up-cta h1 {
+
+  #sign-up-cta .striking {
     font-size: 2.25rem;
   }
 
   #sign-up-cta h2 {
     font-size: 2rem;
+    margin: 0;
+    padding: 0;
   }
 
   #sign-up-cta {
